@@ -1,0 +1,275 @@
+/*
+Cube Experiment
+Date: 26th March 2009
+Author: Paul Hayes
+*/
+
+#experiment {
+    min-height: 500px;
+}
+
+body {
+  background-color: white;
+}
+
+.cube {
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    margin-left: -200px;
+}
+
+.cube p {
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.cube h2 {
+    font-weight: bold;
+}
+
+.rightFace,
+.leftFace,
+.topFace div {
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.rightFace,
+.leftFace,
+.topFace {
+    position: absolute;
+}
+
+.leftFace {
+    -webkit-transform: skew(0deg, 30deg);
+    -moz-transform: skew(0deg, 30deg);
+    -o-transform: skew(0deg, 30deg);
+    -ms-transform: skew(0deg, 30deg);
+    transform: skew(0deg, 30deg);
+    background-color: black;
+}
+
+.rightFace {
+    -webkit-transform: skew(0deg, -30deg);
+    -moz-transform: skew(0deg, -30deg);
+    -o-transform: skew(0deg, -30deg);
+    -ms-transform: skew(0deg, -30deg);
+    transform: skew(0deg, -30deg);
+    background-color: black;
+    left: 200px;
+}
+
+.topFace div {
+    -webkit-transform: skew(0deg, -30deg) scale(1, 1.16);
+    -moz-transform: skew(0deg, -30deg) scale(1, 1.16);
+    -o-transform: skew(0deg, -30deg) scale(1, 1.16);
+    -ms-transform: skew(0deg, -30deg) scale(1, 1.16);
+    transform: skew(0deg, -30deg) scale(1, 1.16);
+    background-color: black;
+    font-size: 0.862em;
+}
+
+.topFace {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+    top: -158px;
+    left: 100px;
+}
+
+.topFace aside {
+  color: black;
+  display: inline-block;
+  padding-right: 51px;
+  padding-bottom: 47px;
+  border: 1px solid black;
+}
+
+.topFace aside.onesie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #0051BA;
+}
+
+.topFace aside.twosie {
+  background-color: #C41E3A;
+}
+
+.topFace aside.threesie {
+  background-color: #0051bA;
+}
+
+.topFace aside.foursie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #FFD500;
+}
+
+.topFace aside.fivesie {
+  background-color: #FF5800;
+}
+
+.topFace aside.sixesie {
+  background-color: #0051BA;
+}
+.topFace aside.sevensie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #FFD500;
+}
+
+.topFace aside.eightsie {
+  background-color: #FF5800;
+}
+.topFace aside.ninesie {
+  background-color: #FFFFFF;
+}
+.leftFace aside {
+  color: black;
+  display: inline-block;
+  padding-right: 50px;
+  padding-bottom: 43px;
+  border: 1px solid black;
+}
+
+.leftFace aside.onesie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #C41E3a;
+}
+
+.leftFace aside.twosie {
+  background-color: #FFFFFF;
+}
+.leftFace aside.threesie {
+  background-color: #FF5800;
+}
+
+.leftFace aside.foursie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #c41e3a;
+}
+
+.leftFace aside.fivesie {
+  background-color: #ffd500;
+}
+.leftFace aside.sixesie {
+  background-color: #ffd500;
+}
+.leftFace aside.sevensie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #c41e3a;
+}
+
+.leftFace aside.eightsie {
+  background-color: #009E60;
+}
+.leftFace aside.ninesie {
+  background-color: #009E60;
+}
+.rightFace aside {
+  color: black;
+  display: inline-block;
+  padding-right: 50px;
+  padding-bottom: 43px;
+  border: 1px solid black;
+}
+
+.rightFace aside.onesie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #0051bA;
+}
+
+.rightFace aside.twosie {
+  background-color: #ffd500;
+}
+.rightFace aside.threesie {
+  background-color: #ffd500;
+}
+.rightFace aside.foursie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #c41e3a;
+}
+
+.rightFace aside.fivesie {
+  background-color: #0051bA;
+}
+.rightFace aside.sixesie {
+  background-color: #ff5800;
+}
+.rightFace aside.sevensie {
+  margin-left: 3px;
+  margin-top: 2px;
+  background-color: #ff5800;
+}
+
+.rightFace aside.eightsie {
+  background-color: #0051bA;
+}
+.rightFace aside.ninesie {
+background-color: #ff5800;
+}
+
+/* Optional WebKit Animations */
+/*
+
+.rightFace {
+-webkit-transition: -webkit-transform 1s linear;
+}
+
+.leftFace {
+-webkit-transition: -webkit-transform 1s linear;
+}
+
+.topFace {
+-webkit-transition: -webkit-transform 1s linear;
+}
+
+.cube:hover .rightFace {
+-webkit-transform: skew(0deg, -30deg) translate(100px, 100px);
+}
+
+.cube:hover .leftFace {
+-webkit-transform: skew(0deg, 30deg) translate(-100px, 100px);
+}
+
+.cube:hover .topFace {
+-webkit-transform: rotate(60deg) translate(-50px, -50px);
+}
+
+/* Video */
+.cube video {
+    left: -20px;
+    top: -20px;
+    position: relative;
+}
+
+.cube div.rightFace video {
+    left: -301px;
+    top: -35px;
+    opacity: 0.9;
+}
+
+.cube div.leftFace video {
+    opacity: 0.7;
+    top: -35px;
+    left: -100px;
+}
+
+.cube div.rightFace,
+.cube div.leftFace {
+    overflow: hidden;
+}
+
+.cube div.topFace.video div {
+    background-color: #000;
+    color: #fff;
+}
