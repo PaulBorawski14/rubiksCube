@@ -93,40 +93,49 @@ body {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #0051BA;
+  color: #0051ba;
 }
 
 .topFace aside.twosie {
   background-color: #C41E3A;
+  color: #C41E3A;
 }
 
 .topFace aside.threesie {
   background-color: #0051bA;
+  color: #0051ba;
 }
 
 .topFace aside.foursie {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #FFD500;
+  color: #FFD500;
 }
 
 .topFace aside.fivesie {
   background-color: #FF5800;
+  color: #FF5800;
 }
 
 .topFace aside.sixesie {
   background-color: #0051BA;
+  color: #0051ba;
 }
 .topFace aside.sevensie {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #FFD500;
+  color: #ffd500;
 }
 
 .topFace aside.eightsie {
   background-color: #FF5800;
+  color: #ff5800;
 }
 .topFace aside.ninesie {
   background-color: #FFFFFF;
+  color: #FFFFFF;
 }
 .leftFace aside {
   color: black;
@@ -140,38 +149,47 @@ body {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #C41E3a;
+  color: #C41e3a;
 }
 
 .leftFace aside.twosie {
   background-color: #FFFFFF;
+  color: #ffffff;
 }
 .leftFace aside.threesie {
   background-color: #FF5800;
+  color: #ff5800
 }
 
 .leftFace aside.foursie {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #c41e3a;
+  color: #c41e3a;
 }
 
 .leftFace aside.fivesie {
   background-color: #ffd500;
+  color: #ffd500;
 }
 .leftFace aside.sixesie {
   background-color: #ffd500;
+  color: #ffd500;
 }
 .leftFace aside.sevensie {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #c41e3a;
+  color: #c41e3a;
 }
 
 .leftFace aside.eightsie {
   background-color: #009E60;
+  color: #009e60;
 }
 .leftFace aside.ninesie {
   background-color: #009E60;
+  color: #009e60;
 }
 .rightFace aside {
   color: black;
@@ -185,37 +203,46 @@ body {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #0051bA;
+  color: #0051ba;
 }
 
 .rightFace aside.twosie {
   background-color: #ffd500;
+  color: #ffd500;
 }
 .rightFace aside.threesie {
   background-color: #ffd500;
+  color: #ffd500;
 }
 .rightFace aside.foursie {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #c41e3a;
+  color: #c41e3a;
 }
 
 .rightFace aside.fivesie {
   background-color: #0051bA;
+  color: #0051ba;
 }
 .rightFace aside.sixesie {
   background-color: #ff5800;
+  color: #ff5800;
 }
 .rightFace aside.sevensie {
   margin-left: 3px;
   margin-top: 2px;
   background-color: #ff5800;
+  color: #ff5800;
 }
 
 .rightFace aside.eightsie {
   background-color: #0051bA;
+  color: #0051ba;
 }
 .rightFace aside.ninesie {
 background-color: #ff5800;
+color: #ff5800;
 }
 
 /* Optional WebKit Animations */
